@@ -92,13 +92,20 @@ body {
 .left-bg {
     background-size: cover;
     background-position: center center;
-    
     text-align: center;
+    background-image: url('../images/coolkids.jpg');
+    padding: 37% 0;
 }
 
-.coolkids {
-    background-image: url('../images/coolkids.jpg');
-    padding: 37% 0;   
+.bg {
+   background-image:url("../images/marching-band-bmore.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-position:center top;  
 }
 
 /* Right half */
@@ -213,9 +220,32 @@ body {
     padding-top: 10px;
 }
 
+.wrapper {
+    height: 100%;
+    position: relative;
+}
+
+.left-column {
+    position:fixed;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    /*background:#090909;*/
+    color: white;
+}
+
+.right-column {
+    margin-left:52%;
+  /*background:yellow;*/
+  min-height:100%;
+}
+
 @media screen and (min-width: 991px) and (max-width: 1050px) {
     
 }
+
+
 
 @media screen and (max-width: 990px) {
   .text-section {
