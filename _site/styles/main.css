@@ -1,3 +1,6 @@
+/* ====
+=== MAIN SECTION === */
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -12,20 +15,11 @@ body {
     clear: both;
 }
 
-/* Grid */
+/* ====
+=== GRID SECTION === */
+
 *, *:after, *:before {
     box-sizing: border-box;
-}
-
-.content {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.row {
-    clear: both;
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 [class^="col-"] {
@@ -52,56 +46,53 @@ body {
 .col-11 { width: 91.3461538462% }
 .col-12 { width: 100%; margin: 0 }
 
-/* End of Grid */
-
-/* Colors */
-.black {
-	background: black;
+.content {
+    margin: 0 auto;
+    width: 100%;
 }
 
-.blue {
-	background: blue;
+.wrapper {
+    height: 100%;
+    position: relative;
 }
 
-/* end of colors */
-
-/* header */
-.height {
-	height: 4em;
+.row {
+    clear: both;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.powered-by {
-	color: white;
-	padding: 23px 0 0 40px;
+/* ====
+=== LEFT COLUMN === */
+
+.left-column {
+    position:fixed;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    /*background:#090909;*/
+    color: white;
 }
 
-.site-header {
-	width: 100%;
+.bg {
+   background-image:url("../images/marching-band-bmore.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-position:center top;  
 }
 
-.fullscreen {
-	padding: 30% 0;
+/* ====
+=== RIGHT COLUMN === */
+.right-column {
+margin-left:52%;  
+  min-height:100%;
 }
 
-.text-section {
-	width: 50%;
-	float: left;
-}
-
-/* Left half */
-.left-bg {
-    background-size: cover;
-    background-position: center center;
-    
-    text-align: center;
-}
-
-.coolkids {
-    background-image: url('../images/coolkids.jpg');
-    padding: 37% 0;   
-}
-
-/* Right half */
 .logo-section {
     padding: 18% 0;
     margin: 0 auto;
@@ -110,127 +101,56 @@ body {
 
 .tmplogo {
     background-image: url('../images/tmp-logo.png');
+    background-size: cover;
 }
 
-/*.tmplogo2 {
-    background-image: url('../images/tmplogo-120x120.png');
-}*/
+.right-container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .blurb-text {
     margin: 6% auto;
-    width: 72%;
     line-height: 1.9em;
     font-size: 1em;
 }
 
-.subscribe {
-    background-color: #ff6f6f;
-    padding: 3%;
-    width: 48%;
-    height: 6em;
-    margin: 2% auto;
-    border-radius: 10px;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-}
-
-.show-love {
-    padding: 4% 0;
-    width: 72%;
-    margin: 0 auto;
-    text-align: center;
+/* Mailbox Styling - see mailchimp-form2.css */
+.mailbox {
+    width: 90%;
 }
 
 .social-row {
-    padding: 3% 17%;
-    /*background-color: red;*/
-    width: 72%;
-    margin: -5% auto 0;
+    width: 36%;
+    margin: 2% auto;
 }
 
-.social-list {
-    display: inline-block;
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0 auto;
-}
+/* Social Icons Styling - see social-icons.css */
 
-.social-list li {
-    display: inline-block;
-    padding-right: 11px;
-}
+/* ====
+=== THEME ELEMENTS === */
 
-.status-updates {
-    display: block;
-}
-
-.toggle-logo {
-    text-align: center;
-    overflow: hidden;
-}
-
-.date {
-    font-weight: bolder;
-}
-
-.update {
-    margin-top: 1%; 
-}
-
-.email-box {
-    display: inline-block;
-}
-
-
-.subscribe-text {
-    text-align: center;
-    font-size: 0.8em;
-}
-
-/*#mc_embed_signup input.email {
-    display: block;
-    padding: 8px 0;
-    margin: -15% 4% 10px 11px;
-    text-indent: 5px;
-    width: 58%;
-    min-width: 130px;
-}*/
-
-.mailbox {
-    width: 100%;
-    margin-left: 11%;
-}
-
-
-
-.bye {
-    margin: 5% auto;
-    text-align: center;
-    color: #ff6f6f;
+.section-separator {
+    margin: 15% auto 0;
     border-top: 2px solid black;
-    width: 50%;
-    padding-top: 10px;
+    width: 30%;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1050px) {
-    
+/* ====
+=== RESPONSIVE STYLING === */
+
+@media screen and (max-width: 620px) {
+    .right-column {
+        margin-left: 0;
+    }
+
+    .left-column {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 990px) {
-  .text-section {
-    width: 100%;
-  }
-
-  .coolkids {
-    padding: 60% 0;
-  }
-
-  .status-updates {
-    display: none !important;
-  }
-
-  .show-love {
-    margin: 4% auto 0;
-  } 
+@media screen and (max-width: 590px) {
+    .social-row {
+        width: 3em;
+    }
 }
