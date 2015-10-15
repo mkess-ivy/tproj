@@ -1,0 +1,184 @@
+.hero-section {
+	background: #4a4a4a;
+    padding: 10% 0;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.img-bg {
+	background-image: url('../images/hero-page-v2.jpg');
+}
+
+.blog-bg {
+	background-image: url('../images/tmp-blog-bg.jpg');	
+}
+
+.page-title {
+	font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+.separator {
+	padding: 2% 0;
+}
+
+.post {
+	padding: 4% 0 3% 8%;
+}
+
+.post-featured-img {
+	background: black;
+	padding: 10px;
+	width: 28em;
+	height: 17em;
+	float: left;
+	position: relative;
+	background-size: cover;
+}
+
+.post-text {
+	float: left;
+    background-color: white;
+    margin-left: -3em;
+    z-index: 2;
+    position: relative;
+    top: 2em;
+    width: 33%;
+    padding: 15px;
+}
+
+.post-title {
+	font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.post-featured-text {
+    /*padding-top: 15px;*/
+    font-size: 0.9em;
+}
+
+.post-button {
+	padding: 5px 10px;
+	background: #ff6f6f;
+	width: 40%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.link, .post-featured-text a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.link:hover	{
+	color: white;
+	text-decoration: line-through;
+}
+
+.link:visited {
+	color: #4a4a4a;
+}
+
+.post-container {
+	float: left;
+	width: 80%;
+}
+
+/* Single Post Section */
+
+.single-post-container {
+	padding-top: 5%;
+}
+
+.single-post-img {
+	background-color: black;
+    padding: 15% 0;
+    margin: 0 auto;
+    width: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.post-content {
+	width: 55%;
+	margin: 0 auto;
+}
+
+.post-meta {
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+
+
+/* End of Single Post Section */
+
+/* Aside section */
+
+.all-posts-section {
+	float: right;
+	background: #ff6f6f;
+	width: 20%;
+	height: 1200px;
+	padding: 20px;
+}
+
+.archive-section-title {
+	/*padding-left: 20px;*/
+}
+
+.archive-post {
+	padding: 10px 0;
+}
+
+.archive-post-title {
+	font-weight: bolder;
+	/*font-size: 1.2em;*/
+}
+
+.archive-post-date {
+	font-weight: lighter;
+}
+
+@media screen and (max-width: 850px) {
+	.all-posts-section {
+		padding-top: 5%;
+		width: 100%;
+		height: 400px;
+
+	}
+
+	.post-container {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 5%;
+	}
+
+	.post-text {
+	    top: -2em;
+	    width: 55%;
+	    padding: 15px;
+	    margin: 0 auto;
+	    left: 4em;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.post-button {
+		width: 50%;
+	}
+
+	.post-text {
+		width: 75%;
+	}
+}
+
+
+

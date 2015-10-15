@@ -1,0 +1,44 @@
+---
+layout: blog-layout
+title: TMP Blog
+permalink: /blog/
+---
+
+<div class="hero-section blog-bg clearfix">
+<div class="page-title">Updates
+<br/>
+<span style="font-size: 0.4em;">(some background image with light opacity)</span>
+</div>
+</div>
+
+<!-- <div class="separator"></div> -->
+
+<!-- Blog Pieces Go Here -->
+<div class="post-container clearfix">
+	{% for post in site.posts limit: 3 %}
+	<section class="post clearfix">
+		{{% if post.cover_img %}}
+		<div class="post-featured-img" style="background-image: url({{ post.cover_image }})"></div>
+		{{% endif %}}
+		<div class="post-text">
+			<div class="post-title">
+				{{ post.title }}
+			</div>
+			<div class="post-featured-text">{{ post.excerpt }}
+				<div class="post-button"><a class="link" href="{{ post.url }}">View More</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	{% endfor %}
+</div>
+<aside class="all-posts-section">
+	<h1 class="archive-section-title">All Posts</h1>
+	{% for post in site.posts limit: 100 %}
+	<div class="archive-post">
+		<div class="archive-post-title"><a class="link" href="{{ post.url }}">{{ post.title }}</a></div>
+		<div class="archive-post-date">Post Date</div>
+	</div>
+	{% endfor %}
+</aside>

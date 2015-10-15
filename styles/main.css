@@ -62,6 +62,91 @@ body {
     margin: 0 auto;
 }
 
+.topbar {
+    padding: 10px 0;
+    background-color: black;
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.topbar-title {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    font-size: .85em;
+    text-transform: uppercase;
+}
+
+/* MENU */
+.hamburger-menu {
+    float: left;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    top: -25px;
+    position: absolute;
+    /*padding: 0.01em 0.9em;*/
+}
+
+.menu {
+    display: none;
+    width: 318px;
+    float: left;
+    background: black;
+}
+
+.menu-here {
+    position: fixed;
+    z-index: 3;
+
+}
+
+.menu-body {
+    padding-top: 30px;
+    height: 450px;
+}
+
+.menu-body a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #ff6f6f;
+    padding: 6% 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.menu-body a:hover {
+    text-decoration: line-through;
+    width: 20%;
+}
+
+.brand-color {
+    color: #ff6f6f;
+}
+
+.menu-logo {
+    width: 77%;
+    padding: 34px 0 0 20px;
+}
+
+.main-copy {
+    margin-top: 30px;
+}
+
+.copy {
+    color: white;
+    padding-top: 2px;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 12%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: .8em;
+}
 /* ====
 === LEFT COLUMN === */
 
@@ -86,6 +171,38 @@ body {
   background-position:center top;  
 }
 
+.triangle-bottomleft { 
+   width: 0; 
+   height: 0; 
+   border-bottom: 740px solid rgba(255,111,111,0.5); 
+   border-right: 710px solid transparent; 
+   overflow: hidden;
+}
+
+.triangle-down-left {
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    overflow: hidden;
+}
+.triangle-down-left:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #4679BD;
+}
+
+.triangle {
+    width: 65vw;
+    height: 205vw;
+    position: absolute;
+    top: -50vw;
+    transform: rotate(45deg);
+    background: purple;
+}
+
 /* ====
 === RIGHT COLUMN === */
 .right-column {
@@ -95,7 +212,7 @@ margin-left:52%;
 
 .logo-section {
     padding: 18% 0;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 36%;
 }
 
@@ -127,6 +244,15 @@ margin-left:52%;
 
 /* Social Icons Styling - see social-icons.css */
 
+/* Footer */
+.bottom {
+    background: black;
+    padding: 2% 0;
+}
+/* End of Footer */
+
+
+
 /* ====
 === THEME ELEMENTS === */
 
@@ -138,6 +264,12 @@ margin-left:52%;
 
 /* ====
 === RESPONSIVE STYLING === */
+
+@media screen and (max-width: 1196px) {
+    .triangle-bottomleft {
+        border-right: 598px solid transparent; 
+    }
+}
 
 @media screen and (max-width: 620px) {
     .right-column {

@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-07-06 20:33:14
+title:  "Extra Extra"
+date:   2015-10-10 20:33:14
 categories: jekyll update
-cover_image: https://dl.dropboxusercontent.com/u/12644668/tumblrurban1-v2.jpg
+cover_image: https://dl.dropboxusercontent.com/u/12644668/tmp-blog-bg.jpg
 ---
+7:07 AM <br/>
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. 
 
 You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
