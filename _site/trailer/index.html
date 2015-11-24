@@ -11,11 +11,11 @@
 " />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel='shortcut icon' href='crown-v2.png' type='image/png' />
-  <title>The Thug Myth Project</title>
+  <title>TMP Blog</title>
   
 
   <!-- <link rel="stylesheet" href="/css/main.css"> -->
-  <link rel="canonical" href="http://thethugmythproject.com/">
+  <link rel="canonical" href="http://thethugmythproject.com/trailer/">
   <link rel="alternate" type="application/rss+xml" title="The Thug Myth Project" href="http://thethugmythproject.com/feed.xml" />
 
   <!-- Font Stylesheets -->
@@ -81,66 +81,64 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <body>
-    <div class="left-column bg">
-    	<div class="triangle-bottomleft"></div>
-    	<!-- <div class="triangle-down-left"></div> -->
-    	<!-- <div class="triangle"></div> -->
-    </div>
-    
-    <!-- start of right block -->
-    <div class="right-column">
-    	<div class="logo-section tmplogo">
-    	</div>
-    	<div class="right-container">
-    		<!-- Starts blurb section -->
-    		<div class="blurb-text">
-	    		<p>From the <span style="text-decoration: line-through">sordid</span> space of misinterpreting and mislabeling black men emerges the Thug Myth Project —a passion project aimed at debunking one of many myths about the black man. <span style="text-decoration: line-through">Enough is enough of portraying our black men as threats to society. More asset than accomplice, more valuable than vandal, more leader than lackey—black men are pillars in the community and it is vital to recognize and honor the many roles they play that are anything but thuggish.</span></p>
-
-				<p>We are swapping stories. We are assembling narratives. We are shouting out to all the men of our villages to stand strong in their skin—a skin so often objectified by a world lost in labels. Using our words not our fists, our tears not our blood, our hearts not our hate—we are dictating that not only do black lives matter, they are necessary. We must take control of our own images so consistently appropriated or distorted into a reason to take us out.</p>
-
-				<p><span style="text-decoration: line-through">Pointing</span> Using cameras not guns, the Thug Myth Project will capture and reflect images of the black male body in a way that is far too absent from today’s entertainment line up. The lives taken are real. So these lives portrayed are purposed at saving life—at ripping apart that ugly thug myth.</p> 
-
-				<p><span style="text-decoration: line-through">So tell us—what’s your story?</span></p>
-    		</div>
-    		<!--Ends Blurb section -->
-
-    		<!-- Begin MailChimp Signup Form -->
-			<div class="mailbox clearfix">
-				<style type="text/css">
-				#mc_embed_signup{background:#fff; clear:left; font:14px 'Lato',Arial,sans-serif; }
-				</style>
-				<div id="mc_embed_signup">
-					<form action="//thethugmythproject.us11.list-manage.com/subscribe/post?u=ab04d0cabec9aa1f49ca3e65e&amp;id=20dbe39b10" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		    			<div id="mc_embed_signup_scroll">
-							<label for="mce-EMAIL">Subscribe to our mailing list</label>
-							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-		    				<div style="position: absolute; left: -5000px;"><input type="text" name="b_ab04d0cabec9aa1f49ca3e65e_20dbe39b10" tabindex="-1" value=""></div>
-		    				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-		    			</div>
-					</form>
-				</div>
-				<!--End mc_embed_signup-->
-			</div>
-			<!--End Mailchimp section -->
-    	</div> 
-    	<!-- End of Container -->
-    	<div class="section-separator"></div>
-		<!-- <ul class="social-row clearfix">
-			 <div class="twitter"></div> -->
-			<!-- <li class="social"><a href="#"><span class="soundcloud"></span></a></li>
-			<li class="social"><a href="#"><span class="instagram"></span></a></li>
-			<li class="social"><a href="#"><span class="vimeo"></span></a></li> -->
-			<!-- <li class="social instagram"></li>
-			<li class="social vimeo"></li>
-		</ul> -->
-    </div> 
-    <!-- End of Right Column -->
+        <!-- <div style="position: fixed; z-index: 199; width: 100%; height: 100%">
+<iframe frameborder="0" height="100%" width="100%" 
+src="https://www.youtube.com/embed/jJJ61ADLHeU?
+autoplay=1&controls=0&showinfo=0&autohide=1">
+</iframe>
 </div>
-<!-- End of Row -->
-</div>
-<!-- End of Wrapper -->
-</body>
+
+<iframe src="https://player.vimeo.com/video/145924100" width="1100" height="619" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ -->
+
+ 	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		
+		<script>
+			var windowWidth = 0;
+			var windowHeight = 0;
+
+			function positionElements(){				
+				//Get Width & Height of Content
+				var contentWidth = parseInt(windowWidth*0.88);
+				var contentHeight = parseInt(windowHeight*0.88);
+				var contentTop = parseInt((windowHeight-contentHeight)/2);
+				var contentLeft = parseInt((windowWidth-contentWidth)/2);
+				
+				//Set Content Width & Height
+				$("#content").css('width', contentWidth+"px");
+				$("#content").css('height', contentHeight+"px");
+				
+				//Position Content
+				$("#content").css('top', contentTop+"px");
+				$("#content").css('left', contentLeft+"px");
+				
+				//Bottom Runner
+				var fontSize = parseInt($("#bottomrunner").height());
+				$("#bottomrunner p").css('font-size', parseInt(fontSize*0.2563)+"px");
+				$("#bottomrunner p").css('line-height', parseInt($("#bottomrunner").height())+"px");
+			}
+			
+			$(document).ready(function() {
+				windowWidth = $(window).width();
+				windowHeight = $(window).height();
+				setTimeout(positionElements(), 100);
+			});
+			
+			$(window).resize(function() {
+				windowWidth = $(window).width();
+				windowHeight = $(window).height();
+				setTimeout(positionElements(), 100);
+			});
+		</script>
+	</head>
+	<body class="trailer">
+		<div id="toprunner"></div>
+		<div id="content" class="trailer">
+			<iframe src="//player.vimeo.com/video/145924100?autoplay=2&badge=0&byline=0&portrait=0&title=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div id="bottomrunner"><p><a href="/">Back</a></p></div>
       </div>
     </div>
 
@@ -200,6 +198,8 @@
 </body>
 </html>
 
+    <!-- <section class="bottom">
+</section> -->
 
   </body>
 

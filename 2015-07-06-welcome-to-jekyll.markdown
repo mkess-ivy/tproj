@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2015-07-06 20:33:14
 categories: jekyll update
 cover_image: https://dl.dropboxusercontent.com/u/12644668/tumblrurban1-v2.jpg
+time: 7:11 AM
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. 
 

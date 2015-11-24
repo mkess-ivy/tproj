@@ -3,9 +3,11 @@ layout: post
 title:  "Blog Post Test"
 date:   2015-10-10 20:33:14
 categories: jekyll update
-cover_image: https://dl.dropboxusercontent.com/u/12644668/tumblr_lspok1XrD81qcxmkyo1_500.jpg
+cover_image: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/single-post-hero.jpg
+time: 5:09 PM
 ---
-7:07 AM <br/>
+You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.  You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.   You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. 
 
 You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
