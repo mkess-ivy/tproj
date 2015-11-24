@@ -1,0 +1,50 @@
+.contact-hero-section {
+	background: #4a4a4a;
+    padding: 11% 0;
+    background-size: cover;
+    background-position: center center;
+    height: 83vh;
+}
+
+.contact-info {
+	text-align: center;
+	color: #ff6f6f;
+	padding: 2% 0;
+	line-height: 20px;
+	background-color: rgba(255,255,255,0.9);
+	display: block;
+	margin-top: 5%;
+}
+
+.contact-info a {
+	color: #ff6f6f;
+	text-decoration: none;
+}
+
+.contact-info a:hover {
+	color: #4a4a4a;
+}
+
+.contact-bg {
+	background-image: url('../images/street-v2.jpg')
+}
+
+@media screen and (max-width: 750px) {
+    .contact-hero-section {
+    	padding: 20% 0;
+    }
+
+    .contact-info {
+    	margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+	.contact-hero-section {
+		padding: 35% 0;
+	}
+
+	.contact-info {
+		margin-top: 25%;
+	}
+}

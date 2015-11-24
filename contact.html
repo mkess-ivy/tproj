@@ -1,53 +1,25 @@
 ---
 layout: blog-layout
-title: TMP Blog
+title: TMP Contact
 permalink: /contact/
 ---
 
-<div class="hero-section blog-bg clearfix">
-<div class="page-title">Updates
-<br/>
+<div class="contact-hero-section blog-bg clearfix">
+	<div class="post-icon"><img src="/images/sofa-icon.png"/></div>
+	<div class="page-title">Contact
+		<br/>
 <!-- <span style="font-size: 0.4em;">(some background image with light opacity)</span> -->
-</div>
+	</div>
+	<div class="contact-info">
+			<a href="mailto:hello@thugmythproject.com" title="Send mail to TMP Team">hello@thugmythproject.com</a><br/>
+			+410-410-4104<br/><br/>
+			Follow Us<br/> <a href="#" title="TMP's Vimeo Channel"><i class="fa fa-vimeo-square fa-lg"></i></a> + <a href="https://www.instagram.com/thugmythproject/" title="TMP's Instagram Channel"><i class="fa fa-instagram fa-lg"></i></a>
+		</div>
 </div>
 
 <!-- <div class="separator"></div> -->
 
-<!-- Blog Pieces Go Here -->
-<div class="post-container clearfix">
-	{% for post in site.posts limit: 100 %}
-	<section class="post clearfix">
-		<div class="post-icon"><img src="../images/okodee_med-v2.gif"/></div>
-		<div class="post-title">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</div>
-		<div class="post-time">{{ post.time }}</div>
-		<div class="post-featured-text">{{ post.excerpt }}</div>
-		{{% if post.cover_img %}}
-		<div class="post-featured-img" style="background-image: url({{ post.cover_image }})"></div>
-		{{% endif %}}
 
-		<!-- {{%  if post.readmore == true %}} -->
-		<div class="post-button">
-			<a class="link" href="{{ post.url }}">View</a>
-		</div>
-		<!-- {{% endfor %}} -->
-		<!-- <div class="post-text">
-			 <div class="post-title">
-				{{ post.title }}
-			</div> -->
-
-			<!-- Featured Text is Here
-
-			<div class="post-featured-text">{{ post.excerpt }}
-				<div class="post-button"><a class="link" href="{{ post.url }}">View More</a>
-				</div>
-			</div> 
-		</div> -->
-
-	</section>
-	{% endfor %}
-</div>
 <div class="the-end">
 <a href="#">svncrwns</a> &copy; 2015. the thug myth project. all rights reserved.<br/>
 <i class="fa fa-diamond fa-lg"></i>
