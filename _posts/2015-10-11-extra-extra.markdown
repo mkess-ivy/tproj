@@ -11,6 +11,6 @@ When I first heard the concept for the Thug Myth Project, I saw it as an opportu
 
 The process allowed for the young men  involved to reflect on their own experiences; to find common grounds; and to reflect on the positive they bring to the table, in contrast to how society maliciously or ignorantly labels them. 
 
-Working on this project has given me the opportunity to meet eight young men with 18 unique stories. The Thug Myth Project allowed me to consider their personal insights on race, class, education, and to reflect on how their stories relate to my own… all with the events of the Baltimore uprising as a backdrop. 
+Working on this project has given me the opportunity to meet 18 young men with 18 unique stories. The Thug Myth Project allowed me to consider their personal insights on race, class, education, and to reflect on how their stories relate to my own… all with the events of the Baltimore uprising as a backdrop. 
 
 I look forward to the quality of the finished product and presenting a creative and artistic voice to a marginalized social issue. 
