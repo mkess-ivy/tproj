@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "No Title"
+title:  "Contributing to Conversations"
 date:   2015-10-10 20:33:14
 categories: team update
 cover_image: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/nick.jpg
