@@ -6,69 +6,49 @@
 </description>
     <link>http://thethugmythproject.com/</link>
     <atom:link href="http://thethugmythproject.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Nov 2015 02:36:09 -0500</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2015 02:36:09 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Dec 2015 12:47:23 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 12:47:23 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Extra Extra</title>
-        <description>&lt;p&gt;You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.  You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.   You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.&lt;/p&gt;
+        <title>Conceptualized Feelings, Real Experiences</title>
+        <description>&lt;p&gt;It all started as a concept - a result of frustrations circling around the Baltimore Uprising 2015, and an even bigger picture, politics around police brutality, politics around #blacklivesmatter, politics in the non-traditional sense - the idea of pouring love into something that will educate, counsel, and help to share narratives about how we feel in such a hateful, immoral world where the dehumanization of our lives is celebrated, victorious even. And amidst all the hate, still find love to share, to heal, to reflect, and to empower US, people of color as we continue to fight for liberation.&lt;/p&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
+&lt;p&gt;I was born and raised in Baltimore, Maryland.  I&#39;ve seen the history of this city, which is all too familiar to many of the cities that are vastly populated with people of color.  I see the huge police presence in these disenfranchised communities.  I know what it&#39;s like to be harassed by the cops, knowing you did nothing wrong (and trying to figure out, quickly, if there was anything you could have done differently or better), and I know what it&#39;s like to see a police car, and see the blurring red-white-blue lights as a cop pulls you over.  It&#39;s frightening, it&#39;s intense, it&#39;s what fear looks like.  Not knowing what will happen when you encounter America&#39;s armed forces; your life hangs in the balance of how this cop feels today, whether it&#39;s personal or a derivative of things.  It&#39;s a very frightening way to live in this world, and many may never know unless they are a person of color living in a highly populated surveillance environment - we are a long ways away from police being our heroes.  And if you really want to go into the archives, the police were raised as America&#39;s puppets to continue a centuries&#39; long system of oppression on all people.  It&#39;s just been very apparent for what that looks like through the lens of people of color, and even more specific, black people, African Americans, the bodies in which Great America was built on.  But let&#39;s not forget, we (humans) are all affected by terrorism, not just black people.&lt;/p&gt;
 
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;So with these experiences, I stood in my living room April 27, 2015 watching as the youth in Baltimore stood eye to eye with police in riot gear.  How did they get in riot gear so quickly? I had lots of speculative, rhetoric questions while witnessing Baltimore make national headlines.  An even bigger slap in the face was watching Baltimore&#39;s mayor and POTUS exclaim across media outlets of the youth who stood up for themselves, being mislabeled as &quot;criminals&quot;- &quot;thugs&quot; if you prefer the pretty version.  I haven&#39;t seen this kind of coverage to positively prophecy the brilliance of my ethnicity - ever, only the paintings of us as criminals, thieves, lazy, ignorant, and even surprisingly, greedy.  Anyway, several weeks later, I got together with a group of friends to purge feelings, and to create.  What initially started as a photography project for black male bodies, soon blossomed into a pool of ideas that later introduced itself as &quot;The Thug Myth Project: a transmedia experience.&quot;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;It&#39;s been two weeks since we wrapped up our first weekend of shooting our documentary, and the experience was breathtaking.  In my role as co-producer and part of the creative team, I had the amazing opportunity to help plan out the documentary, get BTS photo and video, and create the website to showcase this project.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The first days of the filming was beautiful.  We found a studio space to setup shop, and everything ran like clockwork.  This is my first project of this caliber.  Our team was very efficient with scheduling, interviewing and getting all of our shots.  Thinking back to two weeks ago, there was so much powerful energy in that space, stories were shared, laughter was shared, and tears were shared.  To hear young black males tell of their experiences, both young and old, was amazing.  Though heartfelt, I was able to empathize with most stories, I was able to empathize with my family, with my brothers because we are all connected.  I hear you, I see you and we are all standing firm - together.  Asè, now lets continue to create together!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Oct 2015 16:33:14 -0400</pubDate>
-        <link>http://thethugmythproject.com/jekyll/update/2015/10/10/extra-extra.html</link>
-        <guid isPermaLink="true">http://thethugmythproject.com/jekyll/update/2015/10/10/extra-extra.html</guid>
+        <pubDate>Tue, 24 Nov 2015 15:33:14 -0500</pubDate>
+        <link>http://thethugmythproject.com/team/experience/2015/11/24/conceptualized-feelings.html</link>
+        <guid isPermaLink="true">http://thethugmythproject.com/team/experience/2015/11/24/conceptualized-feelings.html</guid>
         
         
-        <category>jekyll</category>
+        <category>team</category>
         
-        <category>update</category>
+        <category>experience</category>
         
       </item>
     
       <item>
-        <title>Blog Post Test</title>
-        <description>&lt;p&gt;You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.  You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.   You will see a blog here.  It should be a little lengthy, a little funny, a little wordy.  Just really want to see some words here.&lt;/p&gt;
+        <title>No Title</title>
+        <description>&lt;p&gt;When I first heard the concept for the Thug Myth Project, I saw it as an opportunity to contribute to a conversation that was long overdue.  I was eager to be a part of a project that would  allow for young black males who are constantly portrayed in a negative light to tell their story.&lt;/p&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
+&lt;p&gt;The process allowed for the young men  involved to reflect on their own experiences; to find common grounds; and to reflect on the positive they bring to the table, in contrast to how society maliciously or ignorantly labels them.&lt;/p&gt;
 
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Working on this project has given me the opportunity to meet eight young men with 18 unique stories. The Thug Myth Project allowed me to consider their personal insights on race, class, education, and to reflect on how their stories relate to my own… all with the events of the Baltimore uprising as a backdrop.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I look forward to the quality of the finished product and presenting a creative and artistic voice to a marginalized social issue.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 16:33:14 -0400</pubDate>
-        <link>http://thethugmythproject.com/jekyll/update/2015/10/10/blog-post-test.html</link>
-        <guid isPermaLink="true">http://thethugmythproject.com/jekyll/update/2015/10/10/blog-post-test.html</guid>
+        <link>http://thethugmythproject.com/team/update/2015/10/10/extra-extra.html</link>
+        <guid isPermaLink="true">http://thethugmythproject.com/team/update/2015/10/10/extra-extra.html</guid>
         
         
-        <category>jekyll</category>
+        <category>team</category>
         
         <category>update</category>
         

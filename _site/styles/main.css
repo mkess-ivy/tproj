@@ -99,7 +99,7 @@ body {
     width: 318px;
     float: left;
     background: black;
-    font-family: 'SpecialElite', sans-serif;
+    /*font-family: 'SpecialElite', sans-serif;*/
 }
 
 .menu-here {
@@ -120,6 +120,12 @@ body {
     padding: 6% 0;
     text-transform: uppercase;
     letter-spacing: -1px;
+
+}
+
+.menu-text {
+    color: white;
+    font-family: 'SpecialElite',sans-serif;
 }
 
 .menu-body a:hover {

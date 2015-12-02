@@ -1,0 +1,65 @@
+---
+layout: blog-layout
+title: TMP Journal
+permalink: /journal/
+---
+
+<div class="hero-section blog-bg clearfix">
+<div class="page-title">Journal
+<br/>
+<!-- <span style="font-size: 0.4em;">(some background image with light opacity)</span> -->
+</div>
+</div>
+
+<!-- <div class="separator"></div> -->
+
+<!-- Blog Pieces Go Here -->
+<div class="post-container clearfix">
+	{% for post in site.posts limit: 100 %}
+	<section class="post clearfix">
+		<div class="post-icon"><img src="../images/okodee_med-v2.gif"/></div>
+		<div class="post-title">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</div>
+		<div class="post-time">{{ post.time }}</div>
+		<div class="post-featured-text">{{ post.excerpt }}</div>
+		{{% if post.cover_img %}}
+		<div class="post-featured-img" style="background-image: url({{ post.cover_image }})"></div>
+		{{% endif %}}
+
+		<!-- {{%  if post.readmore == true %}} -->
+		<div class="post-button">
+			<a class="link" href="{{ post.url }}">View</a>
+		</div>
+		<!-- {{% endfor %}} -->
+		<!-- <div class="post-text">
+			 <div class="post-title">
+				{{ post.title }}
+			</div> -->
+
+			<!-- Featured Text is Here
+
+			<div class="post-featured-text">{{ post.excerpt }}
+				<div class="post-button"><a class="link" href="{{ post.url }}">View More</a>
+				</div>
+			</div> 
+		</div> -->
+
+	</section>
+	{% endfor %}
+</div>
+<div class="the-end">
+<a href="#">svncrwns</a> &copy; 2015. the thug myth project. all rights reserved.<br/>
+<i class="fa fa-diamond fa-lg"></i>
+</div>
+<!-- <div class="footer-icon"><i class="fa fa-diamond"></i>
+</div> -->
+<!-- <aside class="all-posts-section">
+	<h1 class="archive-section-title">All Posts</h1>
+	{% for post in site.posts limit: 100 %}
+	<div class="archive-post">
+		<div class="archive-post-title"><a class="link" href="{{ post.url }}">{{ post.title }}</a></div>
+		<div class="archive-post-date">Post Date</div>
+	</div>
+	{% endfor %}
+</aside> -->
