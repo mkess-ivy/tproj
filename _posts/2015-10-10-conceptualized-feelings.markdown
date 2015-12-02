@@ -2,7 +2,7 @@
 layout: post
 title:  "Conceptualized Feelings, Real Experiences"
 date:   2015-11-24 20:33:14
-categories: team experience
+<!-- categories: team experience -->
 cover_image: https://dl.dropboxusercontent.com/u/12644668/thugmythproj/montier.jpg
 time: 8:48 PM
 ---
