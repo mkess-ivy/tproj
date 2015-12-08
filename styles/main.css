@@ -182,7 +182,7 @@ body {
 .triangle-bottomleft { 
    width: 0; 
    height: 0; 
-   border-bottom: 740px solid rgba(255,111,111,0.5); 
+   border-bottom: 108vh solid rgba(255,111,111,0.5); 
    border-right: 710px solid transparent; 
    overflow: hidden;
 }
@@ -283,6 +283,12 @@ margin-left:52%;
 
 /* ====
 === RESPONSIVE STYLING === */
+
+@media (min-width: 1197px) and (max-width: 1921px) {
+    .triangle-bottomleft {
+        border-right: 54vw solid transparent; 
+    }
+}
 
 @media screen and (max-width: 1196px) {
     .triangle-bottomleft {
