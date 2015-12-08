@@ -315,4 +315,8 @@ margin-left:52%;
         float: right;
         padding-right: 20px;
     }
+
+    .hamburger-menu {
+        font-size: 2.3em;
+    }
 }
